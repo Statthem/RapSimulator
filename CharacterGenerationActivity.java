@@ -8,7 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 public class CharacterGenerationActivity  extends AppCompatActivity {
 
 
-//sds
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,4 +24,5 @@ public class CharacterGenerationActivity  extends AppCompatActivity {
         }
 
     }
+
 
