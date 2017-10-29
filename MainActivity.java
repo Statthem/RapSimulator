@@ -22,13 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btn_exit;
 
-    static ExecutorService executorService;
-    {
-executorService = Executors.newCachedThreadPool();
 
-
-
-    }
 
 
       @Override
@@ -55,6 +49,8 @@ executorService = Executors.newCachedThreadPool();
         Intent n_Gintent = new Intent(this,CharacterGenerationActivity.class);
         startActivity(n_Gintent);
     }
+
+
 
 }
 
